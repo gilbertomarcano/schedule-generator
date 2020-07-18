@@ -35,7 +35,9 @@
 	<div id="pt-main" class="pt-perspective">
 		<div id="buttons" class="buttons">
 			<button id="first-button"class="btn-hover color-1" onclick="firstButton()">SIGUIENTE</button>
-			<button id="second-button" class="btn-hover color-1 back-button" style="display: none" onclick="secondButton()">SIGUIENTE</button>
+			<button id="second-button" class="btn-hover color-1 zero-button" onclick="secondButton()">.</button>
+			<!-- <button id="second-button" class="btn-hover color-1 back-button" style="display: none" onclick="secondButton()">SIGUIENTE</button> -->
+
 
 			<button class="btn-hover color-1 back-button" onclick="app.buttonPrevSchedule()" style="display: none">ANTERIOR</button>
 			<button class="btn-hover color-1 back-button" onclick="app.buttonNextSchedule()" style="display: none">SIGUIENTE</button>
@@ -45,7 +47,10 @@
 			<h1 class="title">Asignaturas disponibles</h2>
 				<div class="subject-list-container">
 					<div class="subject-list-grid">
-						<div class="subject-list-header">search</div>
+						<!-- TODO: Search bar -->
+						<!-- <div class="subject-list-header">search</div> -->
+						<div class="subject-list-header"></div>
+
 						<div class="subject-list-select" id="available-subjects">
 							<!-- <a href="#">
 						<div class="E">1</div>

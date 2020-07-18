@@ -77,7 +77,10 @@ var PageTransitions = (function() {
 				return false;
 			}
 			animcursor = 17;
-			changePage(animcursor, true);
+			if (app.scheduleController.generatedSchedules.length != 0) {
+				changePage(animcursor, true);
+			}
+			
 		} );
 
 	}

@@ -30,8 +30,8 @@ body {
   margin-bottom: 0px;
 
   /* background: #4f4 */
-  background: #fff;
-  /* background: url(../img/background.jpg); */
+  /* background: #fff; */
+  background: url(../img/background.jpg);
   overflow-x: hidden;
   overflow-y: hidden;
 
@@ -80,6 +80,8 @@ h1.title {
   width: 0 (auto);
   text-align: center;
   color: #2b3044;
+  padding: 24px;
+  padding-top: 32px;
 }
 
 .title-center {
@@ -101,5 +103,9 @@ h1.title {
     padding-left: 15px;
     padding-right: 15px;
     text-align: left;
+  }
+
+  body {
+    background: #fff;
   }
 }

@@ -403,6 +403,12 @@
     }
   } */
 
+.zero-button {
+    display: none;
+    width: 0px;
+    visibility: hidden;
+}
+
   @media screen and (max-width: 420px) {
     .btn-hover {
         width: 200px;
@@ -411,5 +417,10 @@
 
     .back-button {
         width: 100px;
+    }
+
+    .zero-button {
+        width: 0px;
+        visibility: hidden;
     }
   }

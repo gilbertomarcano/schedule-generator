@@ -80,11 +80,10 @@ class Controller {
     this.scheduleController.init(app.selectedSubjectsList.subjects)
 
     if (this.scheduleController.generatedSchedules.length === 0) {
-      alert("no schedules generated");
+      alert("Ninguna asignatura fue seleccionada");
     } else {
       
       this.createTimetable()
-      document.getElementById('button-generator').style.visibility = 'hidden';
     }
   }
 
